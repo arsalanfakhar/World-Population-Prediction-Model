@@ -21,12 +21,12 @@ Our prediction was close enough to the actual results. But it can be improved wi
 Our Api or models requires you to send the following parameters:
 
  - Starting year : The year you want to start simulation from.
- - Starting population: The population of starting year which is given in billions.
+ - Starting population: The population of starting year.
  - Ending year:  The year you want to end the simulation.
- - Alpha: Default value is 0.025.
- - Beta: Defualt value is -0.018.
+ - Alpha: Default value is 0.025
+ - Beta: Defualt value is -0.018
 
-**Note:** The default values of alpha and beta were calculated by running simulation more than 1000 times and the best value was chosen for the model.
+**Note:** The default values of alpha and beta were calculated by running simulation more than 1000 times and the best value was chosen for the model. These values can also be chan
  # API Description
  We have hosted the API on heroku and the end point are:
  
@@ -43,3 +43,6 @@ Our Api or models requires you to send the following parameters:
 	"beta":"-0.0018"
 }
 
+### Response
+The response can be found in the following file:
+[JSON Response](https://github.com/arsalanfakhar/World-Population-Prediction-Model/blob/master/response.json)
